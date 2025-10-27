@@ -34,7 +34,10 @@ gsap.from(["nav h1", ".links"], {
   ease: "power2.out",
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 401f29c (add portfolio)
 
 
 function navigate(a){
@@ -46,5 +49,9 @@ function navigate(a){
     window.open("https://www.behance.net/ashishbawabawa")
   }
 
+<<<<<<< HEAD
 }
 >>>>>>> 1930d18 (add portfolio)
+=======
+}
+>>>>>>> 401f29c (add portfolio)

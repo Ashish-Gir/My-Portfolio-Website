@@ -232,11 +232,14 @@ background: none;
 /* portfolio-desc start  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .portfolio-desc{
     display: none
 }
 =======
+=======
+>>>>>>> 401f29c (add portfolio)
 .portfolio-desc{
     display: none
 }
@@ -297,7 +300,10 @@ background-color: #ff073a;
     padding-top: 10px;
 }
 
+<<<<<<< HEAD
 >>>>>>> 1930d18 (add portfolio)
+=======
+>>>>>>> 401f29c (add portfolio)
 /* contact desc start  */
 
 .contact-desc{
@@ -339,10 +345,14 @@ background-color: #ff073a;
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media screen and (max-width:800px){
 =======
 @media screen and (max-width:1000px){
 >>>>>>> 1930d18 (add portfolio)
+=======
+@media screen and (max-width:1000px){
+>>>>>>> 401f29c (add portfolio)
     /* .mainViewPort{
         background: none;
     } */
@@ -356,11 +366,17 @@ background-color: #ff073a;
        
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     nav h1 {
         margin-bottom: 10px;
     }
 >>>>>>> 1930d18 (add portfolio)
+=======
+    nav h1 {
+        margin-bottom: 10px;
+    }
+>>>>>>> 401f29c (add portfolio)
     .links{
          gap: 20px;
     }
@@ -438,7 +454,10 @@ background-color: #ff073a;
         width: 100%;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 401f29c (add portfolio)
 
     .portfolio-card-grid {
         grid-template-columns: 48% 48%;
@@ -454,5 +473,8 @@ background-color: #ff073a;
         height: auto;
         aspect-ratio: 1/1;
     }
+<<<<<<< HEAD
 >>>>>>> 1930d18 (add portfolio)
+=======
+>>>>>>> 401f29c (add portfolio)
 }
