@@ -231,10 +231,73 @@ background: none;
 }
 /* portfolio-desc start  */
 
+<<<<<<< HEAD
 
 .portfolio-desc{
     display: none
 }
+=======
+.portfolio-desc{
+    display: none
+}
+
+.portfolio-desc h1 {
+text-align: center;
+margin: 10px  0;
+padding: 10px 0;
+background-color: rgba(0, 0, 0, 0.471);
+border-radius: 15px;
+}
+
+.portfolio-card-grid {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    /* border: 2px solid green; */
+flex-shrink: none;
+justify-content: space-between;
+gap: 20px;
+}
+.portfolio-card{
+    /* margin: 10px; */
+    background-color: rgba(0, 0, 0, 0.452);
+    color: #ffffff;
+    /* border: 3px solid blue; */
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    /* width: 90%; */
+
+}
+.portfolio-card-imgFrame{
+width:100%;
+height: 200px;  
+overflow: hidden;
+border-radius: 7px;
+
+}
+.portfolio-card:hover img{
+    scale: 1.1;
+}
+.portfolio-card:hover img{
+    opacity: 80%;
+}
+.portfolio-card:hover .portfolio-card-imgFrame{
+background-color: #ff073a;
+}
+
+.portfolio-card-imgFrame img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0 ;
+    transition: .9s;
+}
+
+.portfolio-card-desc{
+    padding-top: 10px;
+}
+
+>>>>>>> 1930d18 (add portfolio)
 /* contact desc start  */
 
 .contact-desc{
@@ -275,7 +338,11 @@ background: none;
 
 
 
+<<<<<<< HEAD
 @media screen and (max-width:800px){
+=======
+@media screen and (max-width:1000px){
+>>>>>>> 1930d18 (add portfolio)
     /* .mainViewPort{
         background: none;
     } */
@@ -288,6 +355,12 @@ background: none;
         flex-direction: column;
        
     }
+<<<<<<< HEAD
+=======
+    nav h1 {
+        margin-bottom: 10px;
+    }
+>>>>>>> 1930d18 (add portfolio)
     .links{
          gap: 20px;
     }
@@ -364,4 +437,22 @@ background: none;
     .contact-desc-box a{
         width: 100%;
     }
+<<<<<<< HEAD
+=======
+
+    .portfolio-card-grid {
+        grid-template-columns: 48% 48%;
+    }
+    .portfolio-card h3{
+        font-size: .8rem;
+    }
+    .portfolio-card p{
+        font-size: .5rem;
+    }
+    .portfolio-card-imgFrame {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+>>>>>>> 1930d18 (add portfolio)
 }

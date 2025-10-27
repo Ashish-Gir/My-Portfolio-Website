@@ -33,3 +33,18 @@ gsap.from(["nav h1", ".links"], {
   stagger: 0.5,
   ease: "power2.out",
 });
+<<<<<<< HEAD
+=======
+
+
+function navigate(a){
+  if(a==1){
+    window.open("https://amazon-clone-react-by-ashish.netlify.app/")
+  }else if(a==2){
+    window.open("https://ashishgirproject-eshop.netlify.app/")
+  }else if(a==3){
+    window.open("https://www.behance.net/ashishbawabawa")
+  }
+
+}
+>>>>>>> 1930d18 (add portfolio)
